@@ -1,0 +1,16 @@
+
+
+<div >
+        <button class="buttons" (click)="reset()">Start Timer</button>
+        <button class="buttons" (click)="fetchCurrentTime()">Current Time</button>
+        </div>
+<div class="container" >
+    <div class="timer" *ngIf="showClock">
+        <span class="text">{{start_hour}}::{{start_min}}::{{start_sec}}</span>
+    </div>
+
+</div>
+
+
+
+
